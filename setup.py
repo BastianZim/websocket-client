@@ -68,7 +68,9 @@ setup(
         'Source': 'https://github.com/websocket-client/websocket-client/',
     },
     keywords='websockets client',
-    scripts=["bin/wsdump.py"],
+    entry_points={
+    'console_scripts': [
+        'wsdump=websocket-client.wsdump:main'],
     install_requires=install_requires,
     packages=["websocket", "websocket.tests"],
     package_data={
