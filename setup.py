@@ -22,7 +22,7 @@ limitations under the License.
 """
 import sys
 
-from setuptools import setup
+from setuptools import setup, find_packages
 import pkg_resources
 
 VERSION = "1.2.1"
