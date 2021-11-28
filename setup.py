@@ -74,7 +74,7 @@ setup(
         ],
     },
     install_requires=install_requires,
-    packages=["websocket", "websocket.tests"],
+    packages=find_packages(),
     package_data={
         'websocket.tests': ['data/*.txt']
     },
